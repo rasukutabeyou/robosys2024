@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Kouta Sakai 
+
 import sys
 
 ans = 0
