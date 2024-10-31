@@ -7,7 +7,7 @@ ng () {
 
 res=0
 
-out=$(seq 5 | ./plus)
+out=$(seq A | ./plus)
 [ "${out}" = 15 ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
