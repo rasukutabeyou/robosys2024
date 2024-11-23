@@ -21,6 +21,9 @@ elif x - 1989 >= 0:
         ans = x - 1989
         print("平成",ans + 1,"年")
 elif x - 1926 >= 0:
-    ans = x - 1926
-    print("昭和",ans +1,"年")
+    if x - 1926 == 0:
+        print("昭和元年(大正15年)")
+    elif x - 1926 != 0:
+        ans = x - 1926
+        print("昭和",ans + 1,"年")
 
