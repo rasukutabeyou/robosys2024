@@ -1,8 +1,7 @@
 # robosys2024
-授業用。
 
 ## 概要
-課題提出用のリポジトリ。
+2024年度　ロボットシステム学における練習用リポジトリ。
 
 `plus`と`genngou`の二つのコマンドが実装されている。
 
@@ -40,10 +39,15 @@ $ git switch dev
 
 - 動作例
 ```
-$ seq 5 > nums
+$ seq 5 > nums #1~5までの数字
 $ ./plus < nums
 15
 ```
+
+- その他
+
+数字以外を入力した場合や、何も入力しない場合、エラーとなり正常に動作しない。
+
 ## genngouコマンド
 ![test](https://github.com/rasukutabeyou/robosys2024/actions/workflows/gtest.yml/badge.svg)
 
@@ -84,7 +88,9 @@ $ ./plus < nums
 
 - その他
 
-元号は昭和∼令和まで対応、昭和以前は"めっちゃ昔"と表示される。
+元号は昭和∼令和まで対応、昭和以前は"昭和以前"と表示される。
+
+`value:`に対して数字以外を入力した場合や、`mode:`に対して`year`,`age`以外の入力した場合はエラーとなり、正常に動作しない。
 
 
 ## 必要なソフトウェア
@@ -101,8 +107,8 @@ $ ./plus < nums
 
 
 - このソフトウェアは、3条項BSDライセンスの下、再頒布および使用が許可されます。
-- このソフトウェアのコードの一部は下記URL内のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
-  - (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
+- このソフトウェアのコードの一部は下記スライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
+  - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
 
 - © 2024 Kouta Sakai
 
