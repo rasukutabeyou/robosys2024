@@ -1,14 +1,27 @@
 # robosys2024
-授業用
+授業用。
 
-# plusコマンド
+##概要
+課題提出用のリポジトリ。
+
+主なコマンドは```plusと```genngouの二つ。
+
+##インストール方法
+
+以下の手順でローカル環境にインストールしてください。
+
+
+## plusコマンド
 ![test](https://github.com/rasukutabeyou/robosys2024/actions/workflows/test.yml/badge.svg)
 
+<基本動作>
 標準入力から読み込んだ数字を足す。
+
+
 
 etc...
 
-# genngouコマンド
+## genngouコマンド
 ![test](https://github.com/rasukutabeyou/robosys2024/actions/workflows/gtest.yml/badge.svg)
 
 1:西暦を元号に変換する。
@@ -16,7 +29,7 @@ etc...
 
 etc
 
-# 必要なソフトウェア
+## 必要なソフトウェア
 - Python
   - テスト済みバージョン: 3.7~3.10
 
