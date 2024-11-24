@@ -1,12 +1,12 @@
 # robosys2024
 授業用。
 
-##概要
+## 概要
 課題提出用のリポジトリ。
 
-主なコマンドは```plusと```genngouの二つ。
+主なコマンドはplusとgenngouの二つ。
 
-##インストール方法
+## インストール方法
 
 以下の手順でローカル環境にインストールしてください。
 
@@ -37,3 +37,14 @@ etc
 - Ubuntu 20.04.6 LTS
 
 © 2024 Kouta Sakai
+
+```bash
+リポジトリをクローン
+git clone https://github.com/username/repository.git
+
+ディレクトリに移動
+cd repository
+
+依存関係をインストール
+pip install -r requirements.txt```
+
