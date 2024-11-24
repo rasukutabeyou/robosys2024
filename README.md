@@ -11,14 +11,14 @@
 以下の手順でローカル環境にインストールし、コマンドを利用するための準備を行ってください。
 
 ```
-リポジトリをクローン
-git clone https://github.com/rasukutabeyou/robosys2024.git
+#リポジトリをクローン
+$ git clone https://github.com/rasukutabeyou/robosys2024.git
 
-ディレクトリに移動
-cd robosys2024
+#ディレクトリに移動
+$ cd robosys2024
 
-ブランチの変更
-git switch dev
+#ブランチの変更
+$ git switch dev
 ```
 
 
@@ -37,23 +37,39 @@ git switch dev
 
 3.結果が出力される。
 
--動作の例
+-動作例
 ```
-seq 5 > nums
-./plus < nums
+$ seq 5 > nums
+$ ./plus < nums
 15
-
-
-
-etc...
-
+```
 ## genngouコマンド
 ![test](https://github.com/rasukutabeyou/robosys2024/actions/workflows/gtest.yml/badge.svg)
 
-1:西暦を元号に変換する。
-2:年齢を元号に変換する。
+-基本動作
 
-etc
+西暦を元号に変換する。
+
+年齢を元号に変換する。
+
+-使い方
+
+1.`./genngou`で実行する。
+
+2.`value:`と表示されるため、元号を調べたい西暦または年齢の値を入力。
+
+3.`mode:`と表示されるため、西暦であれば`year`、年齢であれば`age`と入力。
+
+4.結果が出力される。
+
+-動作例
+```
+$ ./genngou
+value:2005
+mode:year
+2005 年は
+平成 17 年
+```
 
 ## 必要なソフトウェア
 - Python
