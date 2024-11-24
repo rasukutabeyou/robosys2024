@@ -4,11 +4,21 @@
 ## 概要
 課題提出用のリポジトリ。
 
-主なコマンドはplusとgenngouの二つ。
+主なコマンドは`plus`と`genngou`の二つ。
 
 ## インストール方法
 
 以下の手順でローカル環境にインストールしてください。
+```
+リポジトリをクローン
+git ＵＲＬ
+
+ディレクトリに移動
+cd robosys2024
+
+ブランチの変更
+git switch dev
+```
 
 
 ## plusコマンド
@@ -37,14 +47,4 @@ etc
 - Ubuntu 20.04.6 LTS
 
 © 2024 Kouta Sakai
-
-```bash
-リポジトリをクローン
-git clone https://github.com/username/repository.git
-
-ディレクトリに移動
-cd repository
-
-依存関係をインストール
-pip install -r requirements.txt```
 
