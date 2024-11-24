@@ -29,7 +29,7 @@ if m == "year":
             ans = x - 1926
             print("昭和",ans + 1,"年")
     elif x - 1926 < 0:
-        print("めちゃ昔")
+        print("昭和以前")
 
 elif m == "age":
     print(x,"歳は")
@@ -53,5 +53,5 @@ elif m == "age":
             ans = z - 1926
             print("昭和",ans + 1,"年")
     elif z - 1926 < 0:
-        print("めちゃ昔")
+        print("昭和以前")
     print("生まれ")
