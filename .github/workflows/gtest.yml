@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All gtest
-      run: bash -xv ./gtets.bash
+      run: bash -xv ./gtest.bash
