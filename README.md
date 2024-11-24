@@ -6,12 +6,13 @@
 
 主なコマンドは`plus`と`genngou`の二つ。
 
-## インストール方法
+## インストール方法、準備
 
-以下の手順でローカル環境にインストールしてください。
+以下の手順でローカル環境にインストールし、コマンドを利用するための準備を行ってください。
+
 ```
 リポジトリをクローン
-git ＵＲＬ
+git https://github.com/rasukutabeyou/robosys2024.git
 
 ディレクトリに移動
 cd robosys2024
@@ -24,8 +25,13 @@ git switch dev
 ## plusコマンド
 ![test](https://github.com/rasukutabeyou/robosys2024/actions/workflows/test.yml/badge.svg)
 
-<基本動作>
+-基本動作
+
 標準入力から読み込んだ数字を足す。
+
+-使い方
+
+`./plus 任意の数`
 
 
 
