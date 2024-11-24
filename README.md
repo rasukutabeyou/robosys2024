@@ -12,7 +12,7 @@
 
 ```
 リポジトリをクローン
-git https://github.com/rasukutabeyou/robosys2024.git
+git clone https://github.com/rasukutabeyou/robosys2024.git
 
 ディレクトリに移動
 cd robosys2024
@@ -31,7 +31,17 @@ git switch dev
 
 -使い方
 
-`./plus 任意の数`
+1.一列の数字が書き込まれたファイルを用意する。
+
+2.`./plus　< ファイル名`で実行する。
+
+3.結果が出力される。
+
+-動作の例
+```
+seq 5 > nums
+./plus < nums
+15
 
 
 
