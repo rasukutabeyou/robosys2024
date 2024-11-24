@@ -79,7 +79,7 @@ $ ./plus < nums
   - 例2:年齢を元号に
   ```
   $ ./genngou
-  value:17
+  value:19
   mode:age
   19 歳は
   平成 17 年
