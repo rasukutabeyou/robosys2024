@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2024 Kouta Sakai 
+# SPDX-FileCopyrightText: 2024 Kouta Sakai
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
 
-n = input("value:")
-m = input("mode:")
+n = input()
+m = input()
 x = int(n)
 
 if m == "year":
