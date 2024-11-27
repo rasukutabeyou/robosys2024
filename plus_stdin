@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 import sys
 
 
@@ -12,5 +13,18 @@ ans = 0
 for lime in sys.stdin:
     line = line.rstrip()
     ans += tonum(line)
+=======
+# SPDX-FileCopyrightText: 2024 Kouta Sakai 
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+ans = 0
+for line in sys.stdin:
+    try:
+        ans += int(line)
+    except:
+        ans += float(line)
+>>>>>>> dev
 
 print(ans)

@@ -1,0 +1,57 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Kouta Sakai 
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+n = input("value:")
+m = input("mode:")
+x = int(n)
+
+if m == "year":
+    print(x,"年は")
+    if x - 2019 >= 0:
+        if x - 2019 == 0:
+            print("令和元年（平成31年)")
+        elif x - 2019 != 0:
+            ans = x - 2019
+            print("令和",ans + 1,"年")
+    elif x - 1989 >= 0:
+        if x - 1989 == 0:
+            print("平成元年(昭和64年)")
+        elif x - 1989 !=0:
+            ans = x - 1989
+            print("平成",ans + 1,"年")
+    elif x - 1926 >= 0:
+        if x - 1926 == 0:
+            print("昭和元年(大正15年)")
+        elif x - 1926 != 0:
+            ans = x - 1926
+            print("昭和",ans + 1,"年")
+    elif x - 1926 < 0:
+        print("昭和以前")
+
+elif m == "age":
+    print(x,"歳は")
+    z = 2024 - x
+    if z - 2019 >= 0:
+        if  z - 2019 == 0:
+            print("令和元年（平成31年)")
+        elif  z - 2019 != 0:
+            ans = z - 2019
+            print("令和",ans + 1,"年")
+    elif z - 1989 >= 0:
+        if z - 1989 == 0:
+            print("平成元年(昭和64年)")
+        elif z - 1989 !=0:
+            ans = z - 1989
+            print("平成",ans + 1,"年")
+    elif z - 1926 >= 0:
+        if z - 1926 == 0:
+            print("昭和元年(大正15年)")
+        elif z - 1926 != 0:
+            ans = z - 1926
+            print("昭和",ans + 1,"年")
+    elif z - 1926 < 0:
+        print("昭和以前")
+    print("生まれ")
